@@ -1,0 +1,228 @@
+root{
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: sans-serif;
+}
+#container{
+        width: 100%;
+    height: 100%;
+}
+/*beging of the header div*/
+#header{
+    width: 100%;
+    height: 25%;
+    min-height: 170px;
+     background-image: url('../images/top.png');
+}
+#logo{
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 330px;
+    width: 358px;
+    height: 109px;
+    background-image: url('../images/logo.png');
+}
+#menu{
+    margin-top: 80px;
+    float: left;
+    width: 600px;
+    height: 100%;
+    margin-left: 30px;
+}
+ul{
+    float: left;
+}
+ul > li{
+    display: block;
+    float: left;
+}
+li a{
+    text-decoration: none;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 27px;
+    margin-left: 20px;
+    width :100%;  
+text-align: center;}
+#about-link{color: #417D9A;}
+#menu-link{color:#E06E9A;}
+#contact-link{color:#8CB249;}
+#events-link{color:#E2C85B;}
+#fag-link{color:#A32832;}
+/* end of header div*/
+/*start of call now section*/
+#call-now{
+     width: 100%;
+    height: 20%;
+    min-height: 150px;
+        position: relative;
+    background-color:     #ED3482;
+}
+#call-now-text{
+    float: left;
+    margin-left: 330px;
+    margin-top: 35px;
+}
+h4{        
+    line-height: 30px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+}
+h6{   
+    margin-top: 5px;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+#phone{
+    float: left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+#span{
+    width: 75px;
+    height: 58px;
+    background-image: url('../images/telephone.png');
+    position: absolute;
+  z-index: 1;
+  display: block;
+}
+#phone p{
+    display: block;
+    float: left;
+    margin-top:18px ;
+        margin-left:80px;
+        color:white;
+            font-size: 28px;
+            font-weight: normal;
+            word-spacing: 5px;
+}
+#number{
+    font-weight: normal;
+    font-size: 25px;
+    color:white;
+    margin-left: 10px;
+margin-top: 65px;
+}
+#number span{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/*end of call now section*/
+#content{
+    width: 100%;
+    min-height: 500px;
+    height: 40%;
+    min-height: 320px;
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+    padding-bottom: 50px;
+}
+#content-title{
+    padding-left: 700px;
+    padding-top: 25px;
+    height: 50px;
+}
+#content-title span{
+    font-size: 20px;
+    color: #AC285F;
+        background-image: url('../images/title.png');
+}
+#products{
+    margin-left: 260px;
+}
+#products div{
+    float: left;
+    background-color: red;
+    margin-left: 70px;
+    width: 223px;
+    height: 180px;
+    border-radius: 20px;
+}
+#products div span{
+    margin-left: 15px;
+    margin-top:  100px;
+    color: #FFFFFF;
+}
+#latest-events{
+    width: 810px;
+    height: 100px;
+    background-color: #80C8EF;
+    margin-left: 330px;
+    margin-top: 210px;
+}
+#latest-events-1{
+    float: left;
+
+    margin-left: 15px;
+    width: 223px;
+    height: 180px; 
+}
+#latest-events-1 span{
+    
+    margin-top: 35px;
+    float: left;
+    width: 40px;
+    height: 39px;
+        background-image: url('../images/title.png'); 
+}
+#latest-events-1 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+        margin-top: 45px;
+
+}
+#latest-events-2  {
+    height: 50%;
+    padding-top: 35px;
+    margin-left: 290px;
+    color: white;
+}
+#latest-events-2 p{
+    font-size:18px;
+    font-weight: normal;
+}
+#latest-events-3{
+      width: 123px;
+    height: 80px; 
+    background-color: red;
+    float: right;
+    border-radius: 15px;
+    margin-top: -75px;
+    margin-right: 10px;
+}
+
+/*start of footer*/
+#footer{
+    
+        width: 100%;
+        height: 20%;
+        min-height: 156px;
+        background-image: url('../images/bottom.png');
+}
+hr{
+margin-left:-600px; 
+color: #B9C0C4;
+}
+#footer p{
+    color :#DBE1F8;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    padding-left: 655px;
+    padding-top: 112px;
+}
+/*end of footer*/
+
+
+
